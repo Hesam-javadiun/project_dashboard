@@ -1,11 +1,11 @@
-import routes from "./pages"
+import router from "./pages"
 import { RouterProvider } from "react-router-dom"
 // import Dummy from "./components/dummy/dummy";
 
 function App() {
 
   return (
-    <RouterProvider router={routes}
+    <RouterProvider router={router}
     //  fallbackElement={<Dummy routeName="fallback"/>}
      />
   )

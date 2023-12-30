@@ -4,6 +4,6 @@ import loginRoute from "./login";
 import signUpRoute from "./sign-up";
 import nomatchRoute from "./nomatch";
 
-const routes = createBrowserRouter([applicationRoute, loginRoute, signUpRoute, nomatchRoute]);
+const router = createBrowserRouter([applicationRoute, loginRoute, signUpRoute, nomatchRoute]);
 
-export default routes;
+export default router;

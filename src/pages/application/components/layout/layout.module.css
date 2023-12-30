@@ -1,0 +1,20 @@
+.container {
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+
+}
+
+.navbar {
+    width: 12.5rem;
+    background-color: var(--primary-color);
+    height: 100%;
+}
+
+.outlet {
+    flex-grow: 1;
+    background-color: var(--selected-color);
+}
+
