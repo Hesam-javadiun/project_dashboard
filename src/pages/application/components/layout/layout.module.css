@@ -1,20 +1,25 @@
 .container {
-    background-color: aquamarine;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: stretch;
-
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: stretch;
 }
 
 .navbar {
-    width: 12.5rem;
-    background-color: var(--primary-color);
-    height: 100%;
+  width: 12.5rem;
+  height: 100%;
+  background-color: var(--primary-color);
+
 }
 
 .outlet {
-    flex-grow: 1;
-    background-color: var(--selected-color);
+  flex-grow: 1;
+  background-color: var(--selected-color);
 }
 
+.lightmode {
+}
+
+.darkmode {
+  background-color: var(--darkmode-primary-color);
+}

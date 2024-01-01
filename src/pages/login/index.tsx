@@ -1,5 +1,5 @@
 import type { RouteObject } from 'react-router-dom';
-import Dummy from '../../components/dummy/dummy';
+import Dummy from '~components/dummy';
 
 const loginRoute : RouteObject = {
     path: '/login',

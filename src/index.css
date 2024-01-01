@@ -23,5 +23,8 @@ body {
     /* colors */
     --primary-color: #1d2636;
     --selected-color:  #8a50fb;
+
+
+    --darkmode-primary-color:  #373737;
 }
 

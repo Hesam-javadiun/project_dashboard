@@ -1,9 +1,22 @@
-import Layout from "./components/layout"
+import useTheme from "~hooks/useTheme";
+import Layout from "./components/layout";
 
-function Application(){
-    return <Layout>
-        <></>
+function Application() {
+  const { ToggleTheme } = useTheme();
+
+  return (
+    <Layout>
+      <>
+        <button
+          onClick={() => {
+            ToggleTheme();
+          }}
+        >
+          change theme
+        </button>
+      </>
     </Layout>
+  );
 }
 
-export default Application 
+export default Application;
